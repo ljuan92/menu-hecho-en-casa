@@ -14,15 +14,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            font-family: 'Roboto', sans-serif;
-        }
+    <!-- <style>
+        
 
         p {
             margin-bottom: 0;
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
@@ -37,7 +35,7 @@
             organizarnos mejor.
         </div>
 
-        <article style="max-width: 900px; margin-right: auto; margin-left: auto;">
+        <article class="article-menus" style="max-width: 900px; margin-right: auto; margin-left: auto;">
 
             <section class=" mb-5" style="width: 95%; margin-right: auto; margin-left: auto;">
                 <header class="">
@@ -117,7 +115,7 @@
                     <h3>POSTRES</h3>
                 </header>
                 <img class="img-fluid img-thumbnail" src="img/flan-de-queso.jpg" alt="">
-                <div >
+                <div>
 
                     <table class="table">
                         <!-- <thead>
@@ -225,29 +223,33 @@
                     <p>Zanahoria, repollo, tomate, rúcula, remolacha, huevo, lechuga, cebolla</p>
                 </header>
             </section>
-            <section class="card mb-3" style="width: 95%; margin-right: auto; margin-left: auto;">
-                <header class="card-header bg-primary text-white">
-                    <h3>CONTACTO</h3>
-                </header>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><b>Telefono: </b>11-5472-9992</li>
-                    <li class="list-group-item"><b>Dirección: </b></li>
-                    <li class="list-group-item"><b>Instagram: </b></li>
-                </ul>
+            
+            <section style="max-width: 800px; margin-right: auto; margin-left: auto;"
+                class="alert alert-primary d-flex align-items-center" role="alert">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img"
+                    aria-label="Warning:">
+                    <path
+                        d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+                <div>
+                    Tambien tenemos bebidas.
+                </div>
             </section>
         </article>
-        <div style="max-width: 800px; margin-right: auto; margin-left: auto;"
-            class="alert alert-primary d-flex align-items-center" role="alert">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img"
-                aria-label="Warning:">
-                <path
-                    d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-            </svg>
-            <div>
-                Tambien tenemos bebidas.
-            </div>
-        </div>
+        <div class="separador"></div>
+
+        <section class="card mb-3" style="width: 95%; margin-right: auto; margin-left: auto;">
+            <header class="card-header bg-primary text-white">
+                <h3>CONTACTO</h3>
+            </header>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>Telefono: </b>11-5472-9992</li>
+                <li class="list-group-item"><b>Dirección: </b></li>
+                <li class="list-group-item"><b>Instagram: </b></li>
+            </ul>
+        </section>
+
     </main>
     <footer class="bg-success text-white">
         <p>Hecho en Casa</p>
