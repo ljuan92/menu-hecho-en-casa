@@ -1,0 +1,17 @@
+
+
+body > header {
+
+    /* background-color: #f5f5f5; */
+    padding: 20px;
+    /* border-bottom: 1px solid gray; */
+    /* position: relative; */
+    /* z-index: 1; */
+    
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-top: 1px solid grey;
+}
